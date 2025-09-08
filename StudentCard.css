@@ -1,0 +1,58 @@
+.student-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.student-card:hover {
+  transform: translateY(-5px);
+}
+
+.student-card.present {
+  background-color: #e6f7ff;
+  border-color: #91d5ff;
+}
+
+.student-card.absent {
+  background-color: #fff1f0;
+  border-color: #ffccc7;
+}
+
+.student-card.late {
+  background-color: #fffbe6;
+  border-color: #ffe58f;
+}
+
+.student-card h3 {
+  margin-top: 0;
+  color: #1890ff;
+}
+
+.student-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.student-card .status {
+  font-weight: bold;
+}
+
+.student-card.present .status {
+  color: #52c41a;
+}
+
+.student-card.absent .status {
+  color: #f5222d;
+}
+
+.student-card.late .status {
+  color: #faad14;
+}
+
+.notes {
+  font-style: italic;
+  font-size: 0.9em;
+}
