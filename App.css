@@ -1,0 +1,43 @@
+.app-container {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #f0f2f5;
+}
+
+.app-header {
+  text-align: center;
+  color: #333;
+}
+
+.app-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dashboard-section, .activities-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.student-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.activities-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.activities-section li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.activities-section li:last-child {
+  border-bottom: none;
+}
